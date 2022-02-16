@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    color: #828282;
+}
+
+.container{
+    margin: 7% 20%;
+}
+
+.personal{
+    padding: 2%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    gap:30px;
+    margin-bottom: 50px;
+}
+
+.prof-pic{
+    border-radius: 12%;
+}
+
+.details{
+
+    flex-grow: 2;    
+}
+.pers-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.pers-header h4{
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+.pers-header h6{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contact p{
+    font-size: 1.2rem;
+}
+
+.details p{
+    font-size: 2rem;
+}
+
+/* grid */
+
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* skills */
+
+
+.skills{
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.skills h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+
+.skill{
+    display: flex;
+    gap: 10%; 
+    margin-bottom: 25px;
+}
+
+.skill h4{
+    font-size: 1.5rem;
+    width: 15%;
+}
+
+.levels{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    z-index: 2;
+}
+.tot-level{
+    width: 100%;
+    height: 100%;
+    background-color: #828282;
+    border-radius: 50px;
+    flex-grow: 2;
+}
+
+.level{
+    width: 100%;
+    height: 100%;
+    background-color:deepskyblue;
+    
+}
+
+/* Projects */
+
+.projects{
+    grid-row : 1 / span 1;
+    grid-column: 2;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+    height:fit-content;
+}
+.projects h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+button{
+    cursor: pointer;
+    padding: 3%;
+    border-radius: 12px;
+    border-color: #333;
+    margin-right: 20px;
+}
+.isactive{
+    background-color: deepskyblue;
+    border-style: none;
+    color: white;
+}
+
+.proj{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.proj-desc{
+    display: flex;
+    flex-direction: column;
+}
+.live-site{
+    align-self: center;
+    height: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: deepskyblue;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+}
+.proj img{
+    width: 50%;
+    border: 0.75px solid #c7afaf;
+    border-radius: 12px;
+}
+.proj-desc h4{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.proj-desc p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+/* hobbies */
+.hobbies{
+    margin-top: 20px;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.hobbies h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+.hobby{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.hobby img{
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.hobby h4{
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hobby p{
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+
+/* Experiences */
+.experiences h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #333;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+.experiences{
+    margin-top: 30px;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+    /* height: fit-content; */
+}
+.experience{
+    margin-top: 20px;
+    margin-left: 15px ;
+}
+.experience h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+.experience h6{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+.experience h4{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+.experience p{
+    font-size: 1.2rem;
+    font-weight:bolder;
+}
+/* footer */
+
+.footer-para{
+    
+    margin: 30px auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    min-width: 480px;
+    opacity: 0.6;
+}
+
+
+
+/* media */
+@media (max-width: 1000px) {
+    .container{
+        margin: 7% 2%;
+    }
+    .grid{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .projects{
+        grid-row : initial;
+        grid-column: initial;
+    }    
+    .footer-para{
+        min-width: unset;
+        padding-left: 0;
+    }
+}
+@media (max-width: 620px){
+    .prof-pic{
+        width: 150px;
+        height: 150px;
+    }
+    .details p{
+        font-size: 1rem;
+    }
+}
