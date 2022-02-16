@@ -9,11 +9,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://aaditya962.github.io/Edie-homepage/">
+    <a href="https://aaditya962.github.io/my-portfolio-devch/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://edie-homepage-aaditya.netlify.app/">
+    <a href="https://my-portfolio-devch-aaditya.netlify.app/">
       Solution
     </a>
     <span> | </span>
